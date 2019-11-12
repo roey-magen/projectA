@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/roeymagen/CLionProjects/projectA/untitled/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -64,6 +65,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/roeymagen/CLionProjects/projectA/untitled/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -79,6 +81,12 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/roeymagen/CLionProjects/projectA/untitled/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/roeymagen/CLionProjects/projectA/untitled/student.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/roeymagen/CLionProjects/projectA/untitled/student.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/roeymagen/CLionProjects/projectA/untitled/CMakeLists.txt">
