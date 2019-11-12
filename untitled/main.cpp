@@ -8,5 +8,6 @@ int main() {
     student roey(200,"roey");
     std::cout<<s->getid()<<","<< s->getname()<<std::endl;
     std::cout<<roey.getid()<<","<< roey.getname()<<std::endl;
+    student *t=new student(203,"tzach");
     return 0;
 }
