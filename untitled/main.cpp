@@ -8,11 +8,7 @@ int main() {
     student roey(200,"roey");
     std::cout<<s->getid()<<","<< s->getname()<<std::endl;
     std::cout<<roey.getid()<<","<< roey.getname()<<std::endl;
-<<<<<<< HEAD
     std::cout<<roey.getid()<<","<< roey.getname()<<std::endl;
-
-=======
     student *t=new student(203,"tzach");
->>>>>>> 158e4326c128fce4e63a49360bb901a49fde83b3
     return 0;
 }
